@@ -5,13 +5,13 @@ spring:
   application:
     name: ec-system
   datasource:
-    url: jdbc:mysql://localhost:3306/ec_system?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=false
+    url: jdbc:mysql://49.232.196.48:3306/ec_system?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=false
     username: root
-    password: root
+    password: 123456
     driver-class-name: com.mysql.cj.jdbc.Driver
   data:
     redis:
-      host: localhost
+      host: 49.232.196.48
       port: 6379
   sql:
     init:
@@ -32,6 +32,6 @@ app:
     order-completed-topic: order-completed-topic
 
 rocketmq:
-  name-server: localhost:9876
+  name-server: 49.232.196.48:9876
   producer:
     group: ec-system-producer-group
