@@ -1,39 +1,37 @@
-2026-06-02 17:20:27.059 [background-preinit] INFO  o.h.validator.internal.util.Version - [N/A] HV000001: Hibernate Validator 8.0.1.Final
-2026-06-02 17:20:27.110 [main] INFO  c.a.ecsystem.EcSystemApplication - [N/A] Starting EcSystemApplication using Java 21.0.11 with PID 42540 (D:\capital\target\classes started by fangxiao in D:\capital)
-2026-06-02 17:20:27.111 [main] INFO  c.a.ecsystem.EcSystemApplication - [N/A] No active profile set, falling back to 1 default profile: "default"
-2026-06-02 17:20:28.211 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [N/A] Multiple Spring Data modules found, entering strict repository configuration mode
-2026-06-02 17:20:28.213 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [N/A] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2026-06-02 17:20:28.250 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [N/A] Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
-2026-06-02 17:20:28.535 [main] INFO  o.s.cloud.context.scope.GenericScope - [N/A] BeanFactory id=b1a62d1d-c389-3d3c-97d1-e6e80e5acf12
-2026-06-02 17:20:28.948 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [N/A] Bean 'org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [org.apache.rocketmq.spring.annotation.RocketMQMessageListenerBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
-2026-06-02 17:20:28.951 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [N/A] Bean 'org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [org.apache.rocketmq.spring.annotation.RocketMQMessageListenerBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
-2026-06-02 17:20:29.056 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [N/A] Bean 'createRocketMQMessageConverter' of type [org.apache.rocketmq.spring.support.RocketMQMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [org.apache.rocketmq.spring.annotation.RocketMQMessageListenerBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
-2026-06-02 17:20:29.064 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [N/A] Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [org.apache.rocketmq.spring.annotation.RocketMQMessageListenerBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
-2026-06-02 17:20:29.071 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [N/A] Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [org.apache.rocketmq.spring.annotation.RocketMQMessageListenerBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
-2026-06-02 17:20:29.074 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [N/A] Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda/0x0000020142519de0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [org.apache.rocketmq.spring.annotation.RocketMQMessageListenerBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
-2026-06-02 17:20:29.080 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [N/A] Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [org.apache.rocketmq.spring.annotation.RocketMQMessageListenerBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
-2026-06-02 17:20:29.093 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [N/A] Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [org.apache.rocketmq.spring.annotation.RocketMQMessageListenerBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
-2026-06-02 17:20:29.099 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [N/A] Bean 'rocketMQMessageListenerContainerRegistrar' of type [org.apache.rocketmq.spring.support.RocketMQMessageListenerContainerRegistrar] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [org.apache.rocketmq.spring.annotation.RocketMQMessageListenerBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
-2026-06-02 17:20:29.431 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - [N/A] Tomcat initialized with port 8080 (http)
-2026-06-02 17:20:29.440 [main] INFO  o.a.coyote.http11.Http11NioProtocol - [N/A] Initializing ProtocolHandler ["http-nio-8080"]
-2026-06-02 17:20:29.441 [main] INFO  o.a.catalina.core.StandardService - [N/A] Starting service [Tomcat]
-2026-06-02 17:20:29.442 [main] INFO  o.a.catalina.core.StandardEngine - [N/A] Starting Servlet engine: [Apache Tomcat/10.1.24]
-2026-06-02 17:20:29.499 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - [N/A] Initializing Spring embedded WebApplicationContext
-2026-06-02 17:20:29.499 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - [N/A] Root WebApplicationContext: initialization completed in 2331 ms
-2026-06-02 17:20:31.316 [main] INFO  o.a.r.s.a.RocketMQAutoConfiguration - [N/A] a producer (ec-system-producer-group) init on namesrv localhost:9876
-2026-06-02 17:20:31.728 [main] INFO  o.a.coyote.http11.Http11NioProtocol - [N/A] Starting ProtocolHandler ["http-nio-8080"]
-2026-06-02 17:20:31.752 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - [N/A] Tomcat started on port 8080 (http) with context path ''
-2026-06-02 17:20:31.783 [main] INFO  c.a.ecsystem.EcSystemApplication - [N/A] Started EcSystemApplication in 5.46 seconds (process running for 6.202)
-2026-06-02 17:20:54.623 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - [N/A] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-06-02 17:20:54.624 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - [N/A] Initializing Servlet 'dispatcherServlet'
-2026-06-02 17:20:54.625 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - [N/A] Completed initialization in 1 ms
-2026-06-02 17:20:57.849 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - [N/A] HikariPool-1 - Starting...
-2026-06-02 17:20:58.967 [http-nio-8080-exec-1] ERROR com.zaxxer.hikari.pool.HikariPool - [N/A] HikariPool-1 - Exception during pool initialization.
-com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+2026-06-03 02:04:00.027 [background-preinit] INFO  o.h.validator.internal.util.Version - [N/A] HV000001: Hibernate Validator 8.0.1.Final
+2026-06-03 02:04:00.089 [main] INFO  c.a.ecsystem.EcSystemApplication - [N/A] Starting EcSystemApplication using Java 21.0.11 with PID 50476 (D:\capital\target\classes started by fangxiao in D:\capital)
+2026-06-03 02:04:00.090 [main] INFO  c.a.ecsystem.EcSystemApplication - [N/A] No active profile set, falling back to 1 default profile: "default"
+2026-06-03 02:04:00.848 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [N/A] Multiple Spring Data modules found, entering strict repository configuration mode
+2026-06-03 02:04:00.851 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [N/A] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-06-03 02:04:00.888 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [N/A] Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+2026-06-03 02:04:01.233 [main] INFO  o.s.cloud.context.scope.GenericScope - [N/A] BeanFactory id=b1a62d1d-c389-3d3c-97d1-e6e80e5acf12
+2026-06-03 02:04:01.619 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [N/A] Bean 'org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [org.apache.rocketmq.spring.annotation.RocketMQMessageListenerBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-06-03 02:04:01.625 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [N/A] Bean 'org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [org.apache.rocketmq.spring.annotation.RocketMQMessageListenerBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-06-03 02:04:01.723 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [N/A] Bean 'createRocketMQMessageConverter' of type [org.apache.rocketmq.spring.support.RocketMQMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [org.apache.rocketmq.spring.annotation.RocketMQMessageListenerBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-06-03 02:04:01.731 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [N/A] Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [org.apache.rocketmq.spring.annotation.RocketMQMessageListenerBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-06-03 02:04:01.741 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [N/A] Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [org.apache.rocketmq.spring.annotation.RocketMQMessageListenerBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-06-03 02:04:01.742 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [N/A] Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda/0x00000260b150d780] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [org.apache.rocketmq.spring.annotation.RocketMQMessageListenerBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-06-03 02:04:01.746 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [N/A] Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [org.apache.rocketmq.spring.annotation.RocketMQMessageListenerBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-06-03 02:04:01.767 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [N/A] Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [org.apache.rocketmq.spring.annotation.RocketMQMessageListenerBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-06-03 02:04:01.773 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [N/A] Bean 'rocketMQMessageListenerContainerRegistrar' of type [org.apache.rocketmq.spring.support.RocketMQMessageListenerContainerRegistrar] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [org.apache.rocketmq.spring.annotation.RocketMQMessageListenerBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-06-03 02:04:02.267 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - [N/A] Tomcat initialized with port 8080 (http)
+2026-06-03 02:04:02.284 [main] INFO  o.a.coyote.http11.Http11NioProtocol - [N/A] Initializing ProtocolHandler ["http-nio-8080"]
+2026-06-03 02:04:02.285 [main] INFO  o.a.catalina.core.StandardService - [N/A] Starting service [Tomcat]
+2026-06-03 02:04:02.286 [main] INFO  o.a.catalina.core.StandardEngine - [N/A] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2026-06-03 02:04:02.400 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - [N/A] Initializing Spring embedded WebApplicationContext
+2026-06-03 02:04:02.401 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - [N/A] Root WebApplicationContext: initialization completed in 2260 ms
+2026-06-03 02:04:03.732 [main] INFO  o.a.r.s.a.RocketMQAutoConfiguration - [N/A] a producer (ec-system-producer-group) init on namesrv localhost:9876
+2026-06-03 02:04:04.021 [main] INFO  o.a.coyote.http11.Http11NioProtocol - [N/A] Starting ProtocolHandler ["http-nio-8080"]
+2026-06-03 02:04:04.034 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - [N/A] Tomcat started on port 8080 (http) with context path ''
+2026-06-03 02:04:04.051 [main] INFO  c.a.ecsystem.EcSystemApplication - [N/A] Started EcSystemApplication in 4.689 seconds (process running for 5.389)
+2026-06-03 02:04:45.417 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - [N/A] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-03 02:04:45.418 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - [N/A] Initializing Servlet 'dispatcherServlet'
+2026-06-03 02:04:45.418 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - [N/A] Completed initialization in 0 ms
+2026-06-03 02:04:45.554 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - [N/A] HikariPool-1 - Starting...
+2026-06-03 02:04:46.756 [http-nio-8080-exec-1] ERROR com.zaxxer.hikari.pool.HikariPool - [N/A] HikariPool-1 - Exception during pool initialization.
+java.sql.SQLException: Access denied for user 'root'@'183.241.232.32' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:815)
 	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:438)
 	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
@@ -127,32 +125,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
-	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:104)
-	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:149)
-	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:165)
-	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:88)
-	at com.mysql.cj.NativeSession.connect(NativeSession.java:120)
-	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:935)
-	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:805)
-	... 92 common frames omitted
-Caused by: java.net.ConnectException: Connection refused: getsockopt
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:690)
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
-	at java.base/java.net.Socket.connect(Socket.java:751)
-	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153)
-	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:62)
-	... 95 common frames omitted
-2026-06-02 17:20:58.974 [http-nio-8080-exec-1] ERROR c.a.e.e.GlobalExceptionHandler - [N/A] 系统异常: method=GET uri=/api/v1/merchants/1/orders location=com.apcapital.ecsystem.service.impl.OrderServiceImpl.listByMerchant:195
+2026-06-03 02:04:46.771 [http-nio-8080-exec-1] ERROR c.a.e.e.GlobalExceptionHandler - [N/A] 系统异常: method=GET uri=/api/v1/merchants/1/orders location=com.apcapital.ecsystem.service.impl.OrderServiceImpl.listByMerchant:195
 org.mybatis.spring.MyBatisSystemException: null
 	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:97)
 	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:439)
@@ -247,11 +220,9 @@ Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to 
 	at jdk.proxy2/jdk.proxy2.$Proxy117.query(Unknown Source)
 	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:154)
 	... 67 common frames omitted
-Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+Caused by: java.sql.SQLException: Access denied for user 'root'@'183.241.232.32' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:815)
 	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:438)
 	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
@@ -267,28 +238,35 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:118)
 	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81)
 	... 79 common frames omitted
-Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
-	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:104)
-	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:149)
-	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:165)
-	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:88)
-	at com.mysql.cj.NativeSession.connect(NativeSession.java:120)
-	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:935)
-	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:805)
-	... 92 common frames omitted
-Caused by: java.net.ConnectException: Connection refused: getsockopt
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:690)
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
-	at java.base/java.net.Socket.connect(Socket.java:751)
-	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153)
-	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:62)
-	... 95 common frames omitted
+2026-06-03 02:05:05.841 [background-preinit] INFO  o.h.validator.internal.util.Version - [N/A] HV000001: Hibernate Validator 8.0.1.Final
+2026-06-03 02:05:05.882 [main] INFO  c.a.ecsystem.EcSystemApplication - [N/A] Starting EcSystemApplication using Java 21.0.11 with PID 41960 (D:\capital\target\classes started by fangxiao in D:\capital)
+2026-06-03 02:05:05.883 [main] INFO  c.a.ecsystem.EcSystemApplication - [N/A] No active profile set, falling back to 1 default profile: "default"
+2026-06-03 02:05:06.689 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [N/A] Multiple Spring Data modules found, entering strict repository configuration mode
+2026-06-03 02:05:06.691 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [N/A] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-06-03 02:05:06.724 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [N/A] Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+2026-06-03 02:05:07.065 [main] INFO  o.s.cloud.context.scope.GenericScope - [N/A] BeanFactory id=b1a62d1d-c389-3d3c-97d1-e6e80e5acf12
+2026-06-03 02:05:07.441 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [N/A] Bean 'org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [org.apache.rocketmq.spring.annotation.RocketMQMessageListenerBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-06-03 02:05:07.444 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [N/A] Bean 'org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [org.apache.rocketmq.spring.annotation.RocketMQMessageListenerBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-06-03 02:05:07.503 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [N/A] Bean 'createRocketMQMessageConverter' of type [org.apache.rocketmq.spring.support.RocketMQMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [org.apache.rocketmq.spring.annotation.RocketMQMessageListenerBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-06-03 02:05:07.507 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [N/A] Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [org.apache.rocketmq.spring.annotation.RocketMQMessageListenerBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-06-03 02:05:07.512 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [N/A] Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [org.apache.rocketmq.spring.annotation.RocketMQMessageListenerBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-06-03 02:05:07.513 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [N/A] Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda/0x0000021b0151b188] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [org.apache.rocketmq.spring.annotation.RocketMQMessageListenerBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-06-03 02:05:07.515 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [N/A] Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [org.apache.rocketmq.spring.annotation.RocketMQMessageListenerBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-06-03 02:05:07.523 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [N/A] Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [org.apache.rocketmq.spring.annotation.RocketMQMessageListenerBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-06-03 02:05:07.526 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [N/A] Bean 'rocketMQMessageListenerContainerRegistrar' of type [org.apache.rocketmq.spring.support.RocketMQMessageListenerContainerRegistrar] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [org.apache.rocketmq.spring.annotation.RocketMQMessageListenerBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-06-03 02:05:07.807 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - [N/A] Tomcat initialized with port 8080 (http)
+2026-06-03 02:05:07.818 [main] INFO  o.a.coyote.http11.Http11NioProtocol - [N/A] Initializing ProtocolHandler ["http-nio-8080"]
+2026-06-03 02:05:07.819 [main] INFO  o.a.catalina.core.StandardService - [N/A] Starting service [Tomcat]
+2026-06-03 02:05:07.819 [main] INFO  o.a.catalina.core.StandardEngine - [N/A] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2026-06-03 02:05:07.893 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - [N/A] Initializing Spring embedded WebApplicationContext
+2026-06-03 02:05:07.894 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - [N/A] Root WebApplicationContext: initialization completed in 1967 ms
+2026-06-03 02:05:09.271 [main] INFO  o.a.r.s.a.RocketMQAutoConfiguration - [N/A] a producer (ec-system-producer-group) init on namesrv localhost:9876
+2026-06-03 02:05:09.685 [main] INFO  o.a.coyote.http11.Http11NioProtocol - [N/A] Starting ProtocolHandler ["http-nio-8080"]
+2026-06-03 02:05:09.696 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - [N/A] Tomcat started on port 8080 (http) with context path ''
+2026-06-03 02:05:09.715 [main] INFO  c.a.ecsystem.EcSystemApplication - [N/A] Started EcSystemApplication in 4.488 seconds (process running for 5.088)
+2026-06-03 02:05:14.802 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - [N/A] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-03 02:05:14.802 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - [N/A] Initializing Servlet 'dispatcherServlet'
+2026-06-03 02:05:14.803 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - [N/A] Completed initialization in 1 ms
+2026-06-03 02:05:14.906 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - [N/A] HikariPool-1 - Starting...
+2026-06-03 02:05:15.190 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - [N/A] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6016a976
+2026-06-03 02:05:15.193 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - [N/A] HikariPool-1 - Start completed.
